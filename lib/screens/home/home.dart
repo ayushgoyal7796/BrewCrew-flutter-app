@@ -17,6 +17,7 @@ class Home extends StatelessWidget {
             label: Text('logout'),
             onPressed: () async {
               await _auth.signOut();
+              print('signed out');
             },
           ),
         ],
