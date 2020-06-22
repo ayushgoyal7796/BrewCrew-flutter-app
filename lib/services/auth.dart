@@ -1,7 +1,7 @@
 import 'package:brewcrew/models/user.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 
-class Auth {
+class AuthService {
   final FirebaseAuth _auth = FirebaseAuth.instance;
 
   // create User object based on FirebaseUser

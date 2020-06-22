@@ -2,7 +2,7 @@ import 'package:brewcrew/services/auth.dart';
 import 'package:flutter/material.dart';
 
 class Home extends StatelessWidget {
-  final Auth _auth = Auth();
+  final AuthService _auth = AuthService();
 
   @override
   Widget build(BuildContext context) {
