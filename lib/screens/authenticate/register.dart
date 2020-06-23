@@ -1,4 +1,4 @@
-import 'package:brewcrew/screens/authenticate/loading.dart';
+import 'package:brewcrew/shared/loading.dart';
 import 'package:brewcrew/services/auth.dart';
 import 'package:brewcrew/shared/constants.dart';
 import 'package:flutter/material.dart';

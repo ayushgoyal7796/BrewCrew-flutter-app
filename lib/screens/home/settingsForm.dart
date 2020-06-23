@@ -1,7 +1,7 @@
 import 'package:brewcrew/models/user.dart';
-import 'package:brewcrew/screens/authenticate/loading.dart';
 import 'package:brewcrew/services/database.dart';
 import 'package:brewcrew/shared/constants.dart';
+import 'package:brewcrew/shared/loading.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
